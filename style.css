@@ -1,0 +1,279 @@
+#carouselExampleAutoplaying {
+    background-color: rgba(0, 0, 0, 0.025);
+}
+
+.IamWorld {
+    height: 200vh;
+    background-color: black;
+}
+
+#IamFirst {
+    background-image: url(./assests/hero2.1.jpg);
+    height: 90vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#IamSecond {
+    background-image: url(./assests/hero3.1.jpg);
+    height: 90vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#IamThird {
+    background-image: url(./assests/hero1.1.jpg);
+    height: 90vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 765px) {
+    /* body {
+        background-color: lightblue;
+    } */
+
+    #IamFirst {
+        background-image: url(./assests/hero2.1.jpg);
+        height: 50vh;
+        /* width: auto; */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    #IamSecond {
+        background-image: url(./assests/hero3.1.jpg);
+        height: 50vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    #IamThird {
+        background-image: url(./assests/hero1.1.jpg);
+        height: 50vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .text_styling {
+        font-size: 1rem;
+        
+     }
+}
+
+
+
+
+
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.thanks_down {
+    background-image: url(/assests/parallaximage2.1.png);
+    height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 8em;
+    margin-bottom: 100px;
+    /* opacity: 0.3; */
+}
+
+.Count_down {
+    background-image: url(/assests/parallaximage1.1.png);
+    height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 8em;
+    margin-bottom: 100px;
+
+}
+
+/* .text_countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} */
+
+
+/* .counting_down_text {
+    transform: rotate(50deg);
+
+} */
+
+img {
+    size: cover;
+}
+
+.logo_image {
+    height: 60px;
+}
+
+#demo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Hero {
+    width: 100%;
+    height: 80vh;
+    /* color: rgba(255, 96, 0, 10); */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.hero_video {
+    width: 100%;
+    height: 75vh;
+    object-fit: cover;
+    position: absolute;
+    opacity: 0.8;
+    /* z-index: 1; */
+}
+
+.video-text {
+    position: relative;
+
+}
+
+.video-text h1 {
+    font-size: 10rem;
+    font-weight: bolder;
+    text-align: left;
+    color: black;
+}
+
+.mantra_ganesh {
+    font-family: Alkatra;
+    font-weight: 800;
+    font-size: 1.5rem;
+    text-align: center;
+    color: red;
+
+}
+
+#swastik {
+    height: 100px;
+}
+
+/* .iAmFooter {
+  padding-left: 50%;
+} */
+
+.footer_links ul {
+    /* text-align: left; */
+    margin-left: -30px;
+}
+
+.footer_links ul li a {
+    text-decoration: none;
+
+}
+
+.social-links a {
+    padding-left: 14px;
+    font-size: 1.5rem;
+}
+
+.social-links a li {
+    font-size: 40px;
+}
+
+.happyCouple h1 {
+    font-family: 'Great Vibes', cursive;
+    color: #889dd1ff;
+    font-weight: bolder;
+    /* font-size: 5rem; */
+}
+
+.happyCouple p {
+    color: #889dd1ff;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+
+
+.font_style {
+    font-family: 'Gotu';
+    color: red;
+    font-weight: 800;
+}
+
+body {
+    background-color: #E6E6FA;
+}
+
+.card {
+    border-radius: 50px;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.parallax_part1 {
+
+    font-family: 'Great Vibes', cursive;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    /* letter-spacing: 10px; */
+    }
+
+.parallax_part2 {
+
+font-family: 'Great Vibes', cursive;
+font-weight: 800;
+color: rgb(255, 255, 255);
+font-size: 3rem;
+}
+
+.parallax_part3 {
+    font-family: 'Bruno Ace SC', cursive;
+    /* font-weight: 800; */
+    color: black;
+    font-size: 1.8rem;
+}
+
+@media only screen and (min-width: 765px) {
+
+.text_styling {
+   padding-top: 100px;
+}
+
+}
+
+.line {
+    height: 10px;
+    background-color: rgba(230, 230, 250, 100);
+    width: 40%;
+    margin-top: 20px;
+
+}
+
+/* .navbar-nav {
+    color: red;
+} */
